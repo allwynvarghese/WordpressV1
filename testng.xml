@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Wordpress">
+	<test name="WordpressTest">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.wordpress.TestCases.TC001_LoginTest"/>
+			<class name="com.wordpress.TestCases.TC002_MyProfilePage"/>
+		</classes>
+	</test>
+</suite>
